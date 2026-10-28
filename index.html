@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Payment Awareness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">🛡️ Payment Awareness</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#types" class="nav-link">Payment Types</a>
+        <a href="#frauds" class="nav-link">Frauds</a>
+        <a href="#safety" class="nav-link">Safety Tips</a>
+        <a href="#fraud-help" class="nav-link">If Fraud Happens</a>
+        <a href="#quiz" class="nav-link">Quiz</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 1. HOME ===== -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="welcome">Welcome! 👋</p>
+          <h1>Digital Payment Awareness</h1>
+          <p class="hero-intro">
+            Digital payments make life easy, but scammers are always looking for a way in.
+            Learn how digital payments work, spot common frauds, and keep your money safe.
+          </p>
+          <a href="#types" class="btn btn-primary btn-large">Explore Now</a>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="160" cy="130" r="110" fill="#ffffff" opacity="0.08"/>
+            <rect x="60" y="70" width="200" height="120" rx="16" fill="#ffffff"/>
+            <rect x="60" y="95" width="200" height="22" fill="#1e5fbf"/>
+            <rect x="78" y="140" width="60" height="10" rx="5" fill="#9bbcec"/>
+            <rect x="78" y="160" width="100" height="8" rx="4" fill="#cfe0f7"/>
+            <circle cx="236" cy="160" r="18" fill="#7fb2f0"/>
+            <path d="M160 30 l40 14 v30 c0 28 -18 48 -40 58 c-22 -10 -40 -30 -40 -58 v-30 z" fill="#ffffff" opacity="0.95"/>
+            <path d="M146 80 l10 10 l20 -20" stroke="#1e5fbf" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. TYPES OF DIGITAL PAYMENTS ===== -->
+    <section id="types" class="section">
+      <div class="container">
+        <h2 class="section-title">Types of Digital Payments</h2>
+        <p class="section-sub">Five common ways to pay without cash.</p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <span class="icon">📲</span>
+            <h3>UPI Payments</h3>
+            <p>Send money instantly using a UPI app with a mobile number, UPI ID, or QR code.</p>
+          </article>
+          <article class="card">
+            <span class="icon">💳</span>
+            <h3>Debit and Credit Cards</h3>
+            <p>Pay at shops or online using the card details and a secure code.</p>
+          </article>
+          <article class="card">
+            <span class="icon">🏦</span>
+            <h3>Internet Banking</h3>
+            <p>Manage your bank account on a computer, with transfers and bill payments.</p>
+          </article>
+          <article class="card">
+            <span class="icon">👛</span>
+            <h3>Mobile Wallets</h3>
+            <p>Store money in a wallet app and use it to pay bills, recharges, and shops.</p>
+          </article>
+          <article class="card">
+            <span class="icon">📱</span>
+            <h3>Mobile Banking</h3>
+            <p>Use your bank's official app to check balance, transfer money, and pay bills.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. COMMON ONLINE FRAUDS ===== -->
+    <section id="frauds" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Common Online Frauds</h2>
+        <p class="section-sub">Know the tricks so you can recognise them quickly.</p>
+
+        <div class="grid grid-3">
+          <article class="card card-warn">
+            <span class="icon">🧾</span>
+            <h3>Fake UPI Payment Requests</h3>
+            <p>Receiving money never needs your UPI PIN. If someone asks for it, it is a scam.</p>
+          </article>
+          <article class="card card-warn">
+            <span class="icon">✉️</span>
+            <h3>Phishing Messages</h3>
+            <p>Fake SMS or emails with links that copy a bank website to steal your login details.</p>
+          </article>
+          <article class="card card-warn">
+            <span class="icon">🔢</span>
+            <h3>OTP Scams</h3>
+            <p>A caller pretends to be from your bank and asks for the OTP sent to your phone.</p>
+          </article>
+          <article class="card card-warn">
+            <span class="icon">📷</span>
+            <h3>QR Code Scams</h3>
+            <p>A QR code sent "to receive money" actually takes money out of your account.</p>
+          </article>
+          <article class="card card-warn">
+            <span class="icon">☎️</span>
+            <h3>Fake Customer Care Calls</h3>
+            <p>Fake helpline numbers appear in online search results. Use the number printed on your bank's official site.</p>
+          </article>
+          <article class="card card-warn">
+            <span class="icon">🖥️</span>
+            <h3>Remote Access Scams</h3>
+            <p>Someone asks you to install an app that lets them control your phone to "fix" a problem.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. SAFETY TIPS ===== -->
+    <section id="safety" class="section">
+      <div class="container">
+        <h2 class="section-title">Digital Payment Safety Tips</h2>
+        <p class="section-sub">Simple habits that protect your money every day.</p>
+
+        <ul class="tips-list">
+          <li><span class="tip-icon">🔐</span><div><strong>Never share your OTP or UPI PIN.</strong> Not with bank staff, friends, or anyone else.</div></li>
+          <li><span class="tip-icon">🔍</span><div><strong>Verify the receiver before payment.</strong> Check the name shown before you confirm.</div></li>
+          <li><span class="tip-icon">🚫</span><div><strong>Never click suspicious links.</strong> Delete messages that promise prizes or urgent action.</div></li>
+          <li><span class="tip-icon">✅</span><div><strong>Use official payment applications.</strong> Download them only from the official app store.</div></li>
+          <li><span class="tip-icon">🔔</span><div><strong>Check transaction notifications.</strong> Read every SMS and alert so you spot unknown payments.</div></li>
+          <li><span class="tip-icon">📵</span><div><strong>Avoid unknown QR codes.</strong> Scan only codes shown by a shop or person you are paying.</div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 5. WHAT TO DO IF FRAUD HAPPENS ===== -->
+    <section id="fraud-help" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">What To Do If Fraud Happens</h2>
+        <p class="section-sub">Act fast. Quick action can help you recover money.</p>
+
+        <div class="grid grid-4">
+          <div class="card step-card">
+            <span class="step-num">1</span>
+            <h3>Contact your bank immediately</h3>
+            <p>Call the official number on your card or bank website and ask them to block the payment.</p>
+          </div>
+          <div class="card step-card">
+            <span class="step-num">2</span>
+            <h3>Call 1930</h3>
+            <p>This is the national cybercrime helpline for reporting online financial fraud in India.</p>
+          </div>
+          <div class="card step-card">
+            <span class="step-num">3</span>
+            <h3>Report online</h3>
+            <p>File a complaint on the official portal at cybercrime.gov.in.</p>
+          </div>
+          <div class="card step-card">
+            <span class="step-num">4</span>
+            <h3>Save evidence</h3>
+            <p>Keep transaction IDs, screenshots, messages, call logs, and the time of the incident.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. AWARENESS QUIZ ===== -->
+    <section id="quiz" class="section">
+      <div class="container quiz-wrap">
+        <h2 class="section-title">Awareness Quiz</h2>
+        <p class="section-sub">Five questions. Check your answers as you go.</p>
+
+        <div class="card quiz-card">
+          <div class="quiz-progress">
+            <span id="quizCount">Question 1 of 5</span>
+            <span id="quizScore">Score: 0</span>
+          </div>
+          <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+
+          <!-- Question area: filled by script.js -->
+          <div id="quizArea">
+            <h3 class="quiz-question" id="questionText"></h3>
+            <div class="options" id="optionsList"></div>
+            <p class="feedback" id="feedback" aria-live="polite"></p>
+            <button class="btn btn-primary" id="nextBtn" disabled>Next Question</button>
+          </div>
+
+          <!-- Result area: shown at the end -->
+          <div id="resultArea" class="result" hidden>
+            <div class="result-icon" id="resultIcon">🏆</div>
+            <h3 id="resultTitle"></h3>
+            <p id="resultText"></p>
+            <button class="btn btn-primary" id="restartBtn">Try Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. ABOUT / CONTACT ===== -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">About This Project</h2>
+        <p class="section-sub">An educational website to help everyone pay digitally with confidence.</p>
+
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>📘 About the Project</h3>
+            <p>
+              Digital Payment Awareness explains how digital payments work, which types are
+              available, and how to avoid common online frauds. The content is for learning
+              only. This website does not process payments, ask for login details, or collect
+              any personal or financial information.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🔗 Useful Official Links</h3>
+            <ul class="links-list">
+              <li><a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer">National Cyber Crime Reporting Portal</a></li>
+              <li><a href="https://sachet.rbi.org.in" target="_blank" rel="noopener noreferrer">RBI Sachet (report unauthorised financial activity)</a></li>
+              <li><a href="https://www.npci.org.in" target="_blank" rel="noopener noreferrer">NPCI (UPI and payment systems)</a></li>
+              <li><a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer">Reserve Bank of India</a></li>
+            </ul>
+            <p class="hint">Type official website addresses yourself rather than clicking links in messages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Digital Payment Awareness · Educational website · Stay alert, stay safe.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

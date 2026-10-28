@@ -1,0 +1,57 @@
+Digital Payment Awareness Website
+
+About the Project
+
+The Digital Payment Awareness Website is designed to educate people about digital payment methods, common online payment frauds, and safe digital payment practices.
+
+It helps users understand how to use digital payments safely and how to respond to suspicious transactions.
+
+Features
+
+- Introduction to digital payments
+- Types of digital payments
+- Common online payment frauds
+- Digital payment safety tips
+- Steps to follow if online fraud occurs
+- Interactive awareness quiz
+- Responsive design for mobile and desktop
+
+Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+How to Run the Project
+
+1. Download or clone the project.
+2. Open the project folder.
+3. Locate the "index.html" file.
+4. Double-click "index.html".
+5. The website will open in your web browser.
+
+Project Structure
+
+Digital-Payment-Awareness/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+Safety Guidelines
+
+- Never share your OTP or UPI PIN.
+- Do not click suspicious payment links.
+- Verify payment details before sending money.
+- Never scan unknown QR codes to receive money.
+- Avoid installing unknown remote-access applications.
+- Contact your bank and call 1930 if you suspect financial cyber fraud.
+
+Purpose
+
+The main purpose of this project is to create awareness about digital payment methods, online fraud prevention, and secure digital transactions.
+
+Disclaimer
+
+This website is created for educational and awareness purposes only. It does not process payments or collect banking credentials.
